@@ -1,0 +1,54 @@
+/* @import './base.css'; */
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(42, 191, 141);
+  transition: 0.4s;
+  padding: 3px;
+  font-size: larger;
+}
+
+@media (hover: hover) {
+  a:hover, .active {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  /* body {
+    display: flex;
+    place-items: center;
+  } */
+
+  #app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: min-content 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 2em;
+  }
+
+  .nav-bar-left {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+
+  .nav-bar-right {
+    grid-area: 1 / 3 / 2 / 5;
+  }
+
+  .content-area {
+    grid-area: 2 / 1 / 6 / 5;
+  }
+
+/* #app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 2rem;
+} */
+}
