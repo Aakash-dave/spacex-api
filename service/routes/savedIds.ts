@@ -8,10 +8,6 @@ module.exports = async function (req: Request, res: Response) {
         res.json(launches);
     } catch (error: unknown) {
         res.status(500).json({ message: 'Oops, Something went wrong' });
-
-        // if (error instanceof Error) {
-        //     res.status(500).json({ error: error.message });
-        // }
     }
 
 }

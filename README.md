@@ -2,7 +2,7 @@
 Track the spacex launch details using this MEVN App
 
 ### Prerequisites
-- [Nodejs](https://nodejs.org/en/download)
+- [Nodejs](https://nodejs.org/en/download){:target="_blank"}
 - [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 
 Both should be installed and make sure mongodb service is running.

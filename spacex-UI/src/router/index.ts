@@ -12,7 +12,7 @@ const router = createRouter({
       component: ListView
     },
     {
-      path: '/Saved',
+      path: '/saved',
       name: 'SavedList',
       component: ActionView
     }

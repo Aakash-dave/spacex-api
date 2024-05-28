@@ -90,7 +90,6 @@ export const useLaunchStore = defineStore('launch', {
             const err = error as AxiosError;
             if (err.response) {
                 const msg = err.response as AxiosResponse;
-                console.log(msg)
                 if (msg.data.message) {
                     this.toastController('fail', msg.data.message);
                 }
@@ -102,23 +101,5 @@ export const useLaunchStore = defineStore('launch', {
                 this.toastController('fail', "Oops, something went wrong");
             }
         }
-    },
-
-    // getters: {
-    //     getAllLaunches(state) {
-    //         return state.allLaunches;
-    //     },
-
-    //     getSavedLaunches(state) {
-    //         return state.savedLaunch;
-    //     },
-
-    //     getIdsOfSavedLaunches(state) {
-    //         return state.savedLaunchIds;
-    //     },
-    //     isHttpError(state) {
-    //         return state.httpError;
-    //     }
-    // }
-
+    }
 });

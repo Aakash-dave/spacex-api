@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 const Launch = require('../model/launchDetails');
-// const mongoose = require('mongoose');
 
 module.exports = async function (req: Request, res: Response) {
 

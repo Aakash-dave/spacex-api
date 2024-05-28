@@ -9,7 +9,7 @@ import 'vue3-toastify/dist/index.css';
   </section>
 
   <section class="nav-bar-right">
-    <router-link to="/Saved" activeClass="active">Saved launches</router-link>
+    <router-link to="/saved" activeClass="active">Saved launches</router-link>
   </section>
 
   <section class="content-area">
