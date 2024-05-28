@@ -1,7 +1,7 @@
 <template>
   <main class="d-flex flex-column">
     <header>
-      <h1 class="text-primary">SpaceX Launches</h1>
+      <h1 class="text-primary">SpaceX Launches 🚀</h1>
     </header>
     <table class="table table-striped" v-if="launches.length > 0">
       <thead>

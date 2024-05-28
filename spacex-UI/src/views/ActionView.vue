@@ -1,7 +1,7 @@
 <template>
   <main class="d-flex flex-column">
     <header class="text-success mb-2">
-      <h1>Saved Launches</h1>
+      <h1>Saved Launches 📥</h1>
     </header>
     <div class="d-flex flex-row flex-wrap gap-2" v-if="savedLaunches.length">
       <div v-for="launch in savedLaunches" :key="launch._id" class="card">

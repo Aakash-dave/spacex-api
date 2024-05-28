@@ -53,6 +53,13 @@ Start the development server
 npm start
 ```
 
+## Run test: Vitest
+```shell
+cd spacex-UI
+
+npm test
+```
+
 ### Screenshots
 ![List records](./images/LaunchListPage.png)
 
